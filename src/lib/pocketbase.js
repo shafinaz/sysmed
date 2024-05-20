@@ -1,5 +1,5 @@
 import pocketBase from 'pocketbase';
-export const pb = new pocketBase('http://198.211.108.168:8090');
+export const pb = new pocketBase('http://127.0.0.1:8090');
 export const isUserValid = pb.authStore.isValid;
 export const collectionName = pb.authStore.model;
 
